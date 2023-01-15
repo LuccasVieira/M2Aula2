@@ -28,3 +28,21 @@ function somar()
     let v2 = Number(valor2.value);
     document.getElementById("resultado").innerHTML = v1 + v2;
 }
+function subtrair()
+{
+    let v1 = Number(valor1.value);
+    let v2 = Number(valor2.value);
+    document.getElementById("resultado").innerHTML = v1 - v2;
+}
+function dividir()
+{
+    let v1 = Number(valor1.value);
+    let v2 = Number(valor2.value);
+    document.getElementById("resultado").innerHTML = v1 / v2;
+}
+function multiplicar()
+{
+    let v1 = Number(valor1.value);
+    let v2 = Number(valor2.value);
+    document.getElementById("resultado").innerHTML = v1 * v2;
+}
